@@ -1,0 +1,309 @@
+.certifications {
+  margin-top: var(--spacing);
+}
+
+.certifications h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.certifications ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.certifications li {
+  margin-bottom: 1.5rem;
+}
+
+.certification-item {
+  padding: 1rem;
+  background-color: #561f1f;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.certification-item:hover {
+  background-color: #555;
+}
+
+.certification-item h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.certification-item p {
+  margin-bottom: 0;
+  color: white;
+}
+
+.certification-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+.projectsSection {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+.viewPortfolioBtnContainer {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.viewPortfolioBtn {
+  text-decoration: none; /* Ensure no underline for the link */
+  display: inline-block;
+  text-align: center;
+}
+
+.viewPortfolioBtn button {
+  /* Style your button here if necessary */
+  text-align: center; /* Center text horizontally */
+  width: 100%; /* Optionally, make the button full-width */
+}
+
+
+.technicalSkills {
+  margin-top: var(--spacing);
+  text-align: center; /* Center align the text */
+}
+
+.technicalSkills h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+.experience {
+  margin-top: var(--spacing);
+  text-align: center; /* Center align the text */
+}
+
+.experience h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.edu {
+  margin-top: var(--spacing);
+  text-align: center; /* Center align the text */
+}
+
+.edu h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;  
+  color: white;
+}
+
+.certifications {
+  margin-top: var(--spacing);
+  text-align: center; /* Center align the text */
+}
+
+.certifications h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+
+.projectsSection {
+  margin-top: 40px;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.projectsGrid li {
+  background-color: #8268e9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.projectIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.projectIconSvg {
+  width: 50px;
+  height: 50px;
+}
+
+.projectDetails h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.projectDetails p {
+  color: #666;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--spacing);
+  padding-bottom: var(--spacing);
+  color: white; /* Set text color to white */
+}
+/* Skills Section */
+.skillsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skillsCategory {
+  background-color: #cc5373;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(219, 213, 213, 0.1);
+}
+
+.skillsCategory h4 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #d2b6b6;
+}
+
+.skillsIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align icons within each category */
+}
+
+.skillsIcons div {
+  margin: 0.5rem; /* Adjust spacing between individual skill items */
+  display: flex;
+  align-items: center;
+}
+
+.skillsIcons div svg {
+  margin-right: 0.5rem; /* Adjust spacing between icon and text */
+}
+
+.education-item {
+  margin-bottom: 2rem;
+}
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.experience-box {
+  background-color: #62b4d4; /* Box background color */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-box {
+  background-color: #847575; /* Box background color */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skills-box{
+  background-color: #847575; /* Box background color */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.education-box {
+  background-color: #ee5d5d; /* Box background color */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resumeContent {
+  max-width: 800px;
+  margin-top: var(--spacing);
+}
+
+.resumeContent section {
+  margin-bottom: var(--spacing);
+}
+
+.resumeContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white; /* Set heading color to white */
+}
+
+.resumeContent h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: white; /* Set heading color to white */
+}
+
+.resumeContent h4 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+  color: white; /* Set heading color to white */
+}
+
+.resumeContent p {
+  margin-bottom: 1rem;
+  color: white; /* Set paragraph text color to white */
+}
+
+.resumeContent ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resumeContent li {
+  margin-bottom: 1.5rem;
+}
+
+.brand {
+  font-size: 1.5rem;
+  color: var(--text-color); /* Use CSS variable for text color */
+  text-align: center;
+  margin-bottom: var(--spacing);
+}
+
+@media (max-width: 768px) {
+  .resumeContent {
+    padding: 0 var(--spacing);
+  }
+}
+.resumeContent .certificationsBox {
+  background-color: #d4baba; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.resumeContent .certificationsBox ul {
+  padding: 0;
+}
+
+.resumeContent .certificationsBox ul li {
+  margin-bottom: 10px;
+}
+
+.resumeContent .certificationsBox h4 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.resumeContent .certificationsBox p {
+  margin-bottom: 5px;
+}

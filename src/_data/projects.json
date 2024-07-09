@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Medicinal Herb Classifier",
+    "description": "Developed a Medicinal Herb Classifier that secured 9th place in the Smart India Hackathon 2023",
+    "image": "/projectImages/index_mhc.png",
+    "image2": "/projectImages/index_mhc1.png",
+    "body": "Developed a Medicinal Herb Classifier for the Smart India Hackathon 2023, securing 9th place among 200+ teams. Built a precise herb identification system using TensorFlow and created a user-friendly interface with Streamlit. Integrated an AI chatbot for real-time herb information.",
+    "technologies": ["Python - TensorFlow", "Streamlit", "AI Chatbot"],
+    "github": "https://github.com/rakshit-ayachit/weve-got-herbes",
+    "deployed": "https://huggingface.co/spaces/rakshit-ayachit/Medicinal-Herb-Classifier",
+    "bgcolor": "var(--hl2-color)",
+    "id": "1"
+  },
+  {
+    "title": "Project Procrastinate - Student Resources Manager",
+    "description": "Developed a comprehensive student support tool with personalized profiles, customizable courses, AI chatbot assistance, Coursera recommendations, and secure uploads.",
+    "image": "/projectImages/index_pp_r.png",
+    "image2": "/projectImages/index_pp.png",
+    "technologies": ["Python - Django", "jQuery", "HTML/CSS", "JavaScript"],
+    "body": "Developed a comprehensive student support tool with personalized profile pages, customizable course management, and secure material uploads, integrating advanced learning assistance features like an AI chatbot for academic-related queries, a Coursera course recommender, and a robust authentication system.",
+    "github": "https://github.com/rakshit-ayachit/project_procrastinate",
+    "deployed": "https://project-procrastinate-u1o0.onrender.com/",
+    "bgcolor": "var(--hl-color)",
+    "id": "2"
+  },
+  {
+    "title": "Disk Management System using Python",
+    "description": "Created a Disk Management System using Python and Tkinter for file organization and real-time disk space analysis.",
+    "image": "/projectImages/index_tcb.png",
+    "image2": "/projectImages/index_tcb_1.png",
+    "technologies": ["Python - CustomTkinter", "shutil", "psutil", "hashlib"],
+    "body": "Securing 2nd runner-up in the ‘Tally Code Brewers 2023’ hackathon, I developed a fully functional Disk Management System using Python for backend and Tkinter for front-end. The system focused on efficient file organization, real-time disk space analysis, and a user-friendly graphical interface, showcasing advanced skills in both backend and UI development.",
+    "github": "https://github.com/rakshit-ayachit/Disk-Space-Manager",
+    "deployed": "https://github.com/rakshit-ayachit/Disk-Space-Manager",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "Traveling Salesman Problem Solver",
+    "description": "This app features three parallel computing implementations of the Traveling Salesman Problem (TSP) using OpenMP, MPI, and CUDA, each showcasing distinct approaches to efficient problem-solving.",
+    "image": "/projectImages/index_tsp_1.png",
+    "image2": "/projectImages/index_tsp.png",
+    "technologies": [" C/C++", "OpenMP", "MPI","CUDA"],
+    "body": "This repository presents three distinct implementations of the Traveling Salesman Problem (TSP) using parallel computing techniques: OpenMP for shared-memory parallelism, MPI for distributed-memory systems, and CUDA for GPU acceleration. Each implementation explores efficient solutions to the TSP, a critical problem in logistics, manufacturing, and genetics, demonstrating the impact of parallelization in enhancing computational efficiency for complex real-world applications.",
+    "github": "https://github.com/rakshit-ayachit/TSP-Problem-Solvers",
+    "deployed": "https://github.com/rakshit-ayachit/TSP-Problem-Solvers",
+    "bgcolor": "#f85781",
+    "id": "4"
+  }
+
+]
