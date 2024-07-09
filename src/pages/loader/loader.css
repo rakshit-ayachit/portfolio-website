@@ -1,0 +1,103 @@
+body {
+  overflow: hidden;
+}
+
+body.visibleSplash {
+  overflow: visible !important;
+}
+
+.splashScreen {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #131a22;
+  border-bottom: 5px solid #333;
+  overflow: hidden;
+}
+
+.loadingContainer {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  overflow: hidden;
+}
+
+.loadingBox {
+  width: 100%;
+  height: 100%;
+}
+
+.splashLogo {
+  width: 75%; /* Increase the size of the logo */
+  margin: 0 0 50px;
+  animation: logoAppear 4.5s forwards; /* Apply the animation */
+}
+
+.loadingText {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #B6CCD7;
+}
+
+.dot {
+  animation: blink 1s infinite step-start;
+}
+
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes logoAppear {
+  0% {
+    clip-path: inset(0 100% 0 0); /* 0% visible */
+  }
+  25% {
+    clip-path: inset(0 75% 0 0); /* 25% visible */
+  }
+  50% {
+    clip-path: inset(0 50% 0 0); /* 50% visible */
+  }
+  75% {
+    clip-path: inset(0 25% 0 0); /* 75% visible */
+  }
+  100% {
+    clip-path: inset(0 0 0 0); /* 100% visible */
+  }
+}
+
+.splashBehind {
+  background: red;
+  width: 100%;
+  height: 100vh;
+}
+
+.splashBehindTwo {
+  background: #fff;
+  width: 100%;
+  height: 100vh;
+}

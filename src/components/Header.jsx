@@ -20,13 +20,13 @@ const Header = () => {
           transition={{ delay: 2, duration: 0.5, type: "spring" }}
         >
           {/* Animated logo image */}
-          {/* <motion.img
+          <motion.img
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.9 }}
             className="logo"
-            src={logo}
+            src={'./favicon.ico'}
             alt="Rakshit Ayachit' Logo"
-          /> */}
+          />
         </motion.div>
       </NavLink>
       {/* Navigation links */}
